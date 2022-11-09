@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Images Display</title>
+       
+        <div id="head1"><hr><h2>Ibm - Object Storage</h2><hr></div>
+
+        <link rel="stylesheet" href="https://saranyabucket.s3.jp-tok.cloud-object-storage.appdomain.cloud/assignment%203.css">
+    </head>
+    <body>
+        
+        <div id="flower1">
+           <div id="img1"><img src="https://saranyabucket.s3.jp-tok.cloud-object-storage.appdomain.cloud/ibm%201.jpg" width="250px" height="200px"></div><br>
+           <div id="img2">  <img src="https://saranyabucket.s3.jp-tok.cloud-object-storage.appdomain.cloud/ibm%202.jpg" height="200px"></div><br><br>
+           <div id="img3"><img src="https://saranyabucket.s3.jp-tok.cloud-object-storage.appdomain.cloud/ibm3.png" width="250px" height="200px"></div>
+        </div>
+<div id="flower2"><div id="img4"><img src="https://saranyabucket.s3.jp-tok.cloud-object-storage.appdomain.cloud/ibm4.jpg" width="250px" height="200px"></div><br>
+           <div id="img5"> <img src="https://saranyabucket.s3.jp-tok.cloud-object-storage.appdomain.cloud/ibm%205.jpg" width="250px" height="200px"></div>
+           
+        </div>
+         
+        <script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "92769903-2b39-4adb-b677-49f30604369d", // The ID of this integration.
+    region: "eu-gb", // The region your integration is hosted in.
+    serviceInstanceID: "ac11566f-342c-4cfe-9ace-3df1c63ef879", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+    </body>
+</html>
